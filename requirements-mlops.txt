@@ -1,0 +1,13 @@
+pytest
+mlflow>=2.11.0
+tqdm
+pandas
+scikit-learn
+pyyaml
+opencv-python-headless
+librosa
+torch
+torchvision
+torchaudio
+facenet-pytorch
+ffmpeg-python

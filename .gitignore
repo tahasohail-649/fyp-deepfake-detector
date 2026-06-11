@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+
+# Data — never commit raw datasets
+data/raw/
+data/processed/
+
+# Model weights — large files
+checkpoints/
+models/**/*.pth
+models/**/*.pt
+models/**/*.h5
+models/**/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads (runtime)
+uploads/
+temp/
+
+# Credentials — NEVER commit
+kaggle.json
+*.json.secret
